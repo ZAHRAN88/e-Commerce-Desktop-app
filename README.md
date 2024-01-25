@@ -26,6 +26,8 @@
 
 <img src="https://i.postimg.cc/wBXRh7YC/Screenshot-2024-01-25-041647.png" alt="project-screenshot" width="400" height="700/">
 
+<img src="https://i.postimg.cc/tJC6RyfL/Screenshot-2024-01-25-040006.png" alt="project-screenshot" width="400" height="700/">
+
   
   
 <h2>🧐 Features</h2>
