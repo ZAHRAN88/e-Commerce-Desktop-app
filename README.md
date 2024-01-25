@@ -8,7 +8,7 @@
 
 <img src="https://i.postimg.cc/Y094KRL7/Screenshot-2024-01-25-041235.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/ZYV37BvZ/Screenshot-2024-01-25-041253.png" alt="project-screenshot" width="100" height="200/">
+<img src="https://i.postimg.cc/ZYV37BvZ/Screenshot-2024-01-25-041253.png" alt="project-screenshot" width="300" height="600/">
 
 <img src="https://i.postimg.cc/KzQKHwzQ/Screenshot-2024-01-25-041322.png" alt="project-screenshot" width="800" height="400/">
 
@@ -20,7 +20,7 @@
 
 <img src="https://i.postimg.cc/VkbCkKGL/Screenshot-2024-01-25-041513.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/9Fk926Bn/Screenshot-2024-01-25-041536.png" alt="project-screenshot" width="400" height="700/">
+<img src="https://i.postimg.cc/9Fk926Bn/Screenshot-2024-01-25-041536.png" alt="project-screenshot" width="600" height="400/">
 
 <img src="https://i.postimg.cc/q7VCh2Sc/Screenshot-2024-01-25-041610.png" alt="project-screenshot" width="400" height="700/">
 
