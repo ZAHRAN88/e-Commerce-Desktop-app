@@ -1,0 +1,116 @@
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\bin\Debug\online shopping project.exe.config
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\bin\Debug\online shopping project.exe
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\bin\Debug\online shopping project.pdb
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.SuggestedBindingRedirects.cache
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.Login.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.Home.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.exe
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online shopping project.pdb
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+C:\Users\Elnoor-1\Desktop\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\bin\Debug\online shopping project.exe.config
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\bin\Debug\online shopping project.exe
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\bin\Debug\online shopping project.pdb
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.SuggestedBindingRedirects.cache
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.Login.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.Home.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.exe
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online shopping project.pdb
+C:\Users\CS\Desktop\online shopping project\online shopping project\online shopping project\obj\Debug\online_shopping_project.children.resources
+D:\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe.config
+D:\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe
+D:\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.pdb
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.SuggestedBindingRedirects.cache
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.children.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Login.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Home.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.exe
+D:\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.pdb
+E:\projects\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe.config
+E:\projects\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe
+E:\projects\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.pdb
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.SuggestedBindingRedirects.cache
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.children.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Login.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Home.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.exe
+E:\projects\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe.config
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.SuggestedBindingRedirects.cache
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.children.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Login.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Home.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe.config
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\bin\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.children.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Login.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Home.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\WindowsFormsApp3.Kids.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Form1.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Success.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Form9.resources

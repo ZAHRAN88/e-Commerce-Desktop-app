@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A19ECB8-E391-4307-92CE-AFC093F42692}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>online_shopping_project</RootNamespace>
+    <AssemblyName>online shopping project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accesories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accesories.designer.cs">
+      <DependentUpon>Accesories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkout.Designer.cs">
+      <DependentUpon>checkout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkoutcash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkoutcash.Designer.cs">
+      <DependentUpon>checkoutcash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkoutvisa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkoutvisa.Designer.cs">
+      <DependentUpon>checkoutvisa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="children.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="children.Designer.cs">
+      <DependentUpon>children.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main site.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main site.Designer.cs">
+      <DependentUpon>main site.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products Female.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products Female.Designer.cs">
+      <DependentUpon>Products Female.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Products male.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products male.Designer.cs">
+      <DependentUpon>Products male.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="shoppingcart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shoppingcart.Designer.cs">
+      <DependentUpon>shoppingcart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Success.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Success.Designer.cs">
+      <DependentUpon>Success.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Accesories.resx">
+      <DependentUpon>Accesories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkout.resx">
+      <DependentUpon>checkout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkoutcash.resx">
+      <DependentUpon>checkoutcash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkoutvisa.resx">
+      <DependentUpon>checkoutvisa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="children.resx">
+      <DependentUpon>children.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main site.resx">
+      <DependentUpon>main site.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products Female.resx">
+      <DependentUpon>Products Female.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products male.resx">
+      <DependentUpon>Products male.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="shoppingcart.resx">
+      <DependentUpon>shoppingcart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Success.resx">
+      <DependentUpon>Success.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-14 at 12.08.42 PM %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-14 at 12.08.42 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-14 at 12.08.43 PM %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-14 at 12.08.43 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-12-14 at 12.30.24 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sarai-high-resolution-logo-color-on-transparent-background %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-no-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-no-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothes-hanger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmark-solid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xmark-solid1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f-BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categories.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman-icon-png-2.jpg" />
+    <None Include="Resources\man-png-icon-14.jpg" />
+    <None Include="Resources\wpink21.png" />
+    <None Include="Resources\wpink11.png" />
+    <None Include="Resources\wblue21.png" />
+    <None Include="Resources\wblue11.png" />
+    <None Include="Resources\wblack21.png" />
+    <None Include="Resources\wblack11.png" />
+    <None Include="Resources\pink21.png" />
+    <None Include="Resources\pink11.png" />
+    <None Include="Resources\wpink2.png" />
+    <None Include="Resources\wpink1.png" />
+    <None Include="Resources\wblue2.png" />
+    <None Include="Resources\wblue1.png" />
+    <None Include="Resources\wblack2.png" />
+    <None Include="Resources\wblack1.png" />
+    <None Include="Resources\pink2.png" />
+    <None Include="Resources\pink1.png" />
+    <None Include="Resources\visa-icon-vector-24.jpg" />
+    <None Include="Resources\paypal-credit-card-icon-5.jpg" />
+    <None Include="Resources\Mastercard.png" />
+    <None Include="Resources\white_breclet-removebg-preview1.png" />
+    <None Include="Resources\red_hat-removebg-preview1.png" />
+    <None Include="Resources\NH4014PN_J37_24-removebg-preview1.png" />
+    <None Include="Resources\NH4014PN_J37_241.jpg" />
+    <None Include="Resources\NH1115FG028_1_900x-removebg-preview1.png" />
+    <None Include="Resources\output-onlinepngtools.png" />
+    <None Include="Resources\m4-black.png" />
+    <None Include="Resources\m4-army-green.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\ة4-removebg-preview.png" />
+    <None Include="Resources\f1_removebg_preview.jpg" />
+    <None Include="Resources\f2_removebg_preview.jpg" />
+    <None Include="Resources\f3_removebg_preview.jpg" />
+    <None Include="Resources\f4_removebg_preview.jpg" />
+    <None Include="Resources\m1-green.png" />
+    <None Include="Resources\m1-navy.png" />
+    <None Include="Resources\k1.png" />
+    <None Include="Resources\k2.png" />
+    <None Include="Resources\k3.png" />
+    <None Include="Resources\k4.png" />
+    <None Include="Resources\k1black.png" />
+    <None Include="Resources\k2red.png" />
+    <None Include="Resources\k4blue.png" />
+    <None Include="Resources\k4brown.png" />
+    <None Include="Resources\k1g.png" />
+    <None Include="Resources\k3purble.png" />
+    <None Include="Resources\k3beige.png" />
+    <None Include="Resources\k4b.png" />
+    <None Include="Resources\k1back.png" />
+    <None Include="Resources\k1gback.png" />
+    <None Include="Resources\k1blackback.png" />
+    <None Include="Resources\k1bb.png" />
+    <None Include="Resources\k3purbleback.png" />
+    <None Include="Resources\k3beigeback.png" />
+    <None Include="Resources\k3b.png" />
+    <None Include="Resources\k2b.png" />
+    <None Include="Resources\image-removebg-preview %2810%29.png" />
+    <None Include="Resources\image-removebg-preview %289%29.png" />
+    <None Include="Resources\image-removebg-preview %288%29.png" />
+    <None Include="Resources\image-removebg-preview %287%29.png" />
+    <None Include="Resources\image-removebg-preview %286%29.png" />
+    <None Include="Resources\image-removebg-preview %285%29.png" />
+    <None Include="Resources\image-removebg-preview %284%29.png" />
+    <None Include="Resources\k2b1.png" />
+    <None Include="Resources\k1bb1.png" />
+    <None Include="Resources\k1gback1.png" />
+    <None Include="Resources\k31.png" />
+    <None Include="Resources\fbg.png" />
+    <None Include="Resources\bage_hat-removebg-preview1.png" />
+    <None Include="Resources\black wallet1.jpg" />
+    <None Include="Resources\black_breclet-removebg-preview1.png" />
+    <None Include="Resources\black_hat-removebg-preview1.png" />
+    <None Include="Resources\black_wallet-removebg-preview1.png" />
+    <None Include="Resources\blackwatch1.png" />
+    <None Include="Resources\blue wallet1.jpg" />
+    <None Include="Resources\blue_hat-removebg-preview1.png" />
+    <None Include="Resources\blue_wallet-removebg-preview1.png" />
+    <None Include="Resources\bluewatch1.png" />
+    <None Include="Resources\brown_breclet-removebg-preview1.png" />
+    <None Include="Resources\brownwatch1.png" />
+    <None Include="Resources\B1_beige.png" />
+    <None Include="Resources\B1_black.png" />
+    <None Include="Resources\B1_green.png" />
+    <None Include="Resources\B2_black.png" />
+    <None Include="Resources\B2_green.png" />
+    <None Include="Resources\B2_grey.png" />
+    <None Include="Resources\B3_black.png" />
+    <None Include="Resources\B3_blue.png" />
+    <None Include="Resources\B3_green.png" />
+    <None Include="Resources\B4_black.png" />
+    <None Include="Resources\B4_grey.png" />
+    <None Include="Resources\B4_white.png" />
+    <None Include="Resources\discover-icon-10.jpg" />
+    <None Include="Resources\american-express-icon-19.jpg" />
+    <None Include="Resources\ebay-app-icon-15.jpg" />
+    <None Include="Resources\cash-payment-icon-28.jpg" />
+    <None Include="Resources\Instant-pay.png" />
+    <None Include="Resources\homebg.png" />
+    <None Include="Resources\homebgg.png" />
+    <None Include="Resources\imgblrd.jpg" />
+    <None Include="Resources\imgblrdd.png" />
+    <None Include="Resources\homebg1.png" />
+    <None Include="Resources\loginbg.png" />
+    <None Include="Resources\hblack2.png" />
+    <None Include="Resources\hblue1.png" />
+    <None Include="Resources\hblue2.png" />
+    <None Include="Resources\hgold1.png" />
+    <None Include="Resources\hgold2.png" />
+    <None Include="Resources\img1black.png" />
+    <None Include="Resources\img1gray.png" />
+    <None Include="Resources\img2blac%3b.png" />
+    <None Include="Resources\img2gray.png" />
+    <None Include="Resources\bblack1.png" />
+    <None Include="Resources\bblack2.png" />
+    <None Include="Resources\bblue1.png" />
+    <None Include="Resources\bblue2.png" />
+    <None Include="Resources\bwhite1.png" />
+    <None Include="Resources\bwhite2.png" />
+    <None Include="Resources\hblack1.png" />
+    <None Include="Resources\hblack21.png" />
+    <None Include="Resources\hblue11.png" />
+    <None Include="Resources\hblue21.png" />
+    <None Include="Resources\hgold11.png" />
+    <None Include="Resources\hgold21.png" />
+    <None Include="Resources\img1black1.png" />
+    <None Include="Resources\img1gray1.png" />
+    <None Include="Resources\img2blac%3b1.png" />
+    <None Include="Resources\img2gray1.png" />
+    <None Include="Resources\bblack11.png" />
+    <None Include="Resources\kids.png" />
+    <None Include="Resources\kids1.png" />
+    <None Include="Resources\accessories.png" />
+    <None Include="Resources\back1.png" />
+    <None Include="Resources\bicon.png" />
+    <None Include="Resources\close1.png" />
+    <None Include="Resources\icons8-polo-shirt-64.png" />
+    <None Include="Resources\icons8-wedding-dress-64.png" />
+    <None Include="Resources\icons8-kids-64.png" />
+    <None Include="Resources\icons8-necklace-64.png" />
+    <None Include="Resources\icons8-sunglasses-64.png" />
+    <None Include="Resources\efda0d741fd73fb31c2870269ada7c8d_removebg_preview1.jpg" />
+    <Content Include="Resources\M1-removebg-preview.png" />
+    <None Include="Resources\m2-black.png" />
+    <Content Include="Resources\M2-removebg-preview.png" />
+    <None Include="Resources\m2-white.png" />
+    <None Include="Resources\m3-army-green.png" />
+    <None Include="Resources\m3-khaki.png" />
+    <Content Include="Resources\M3-removebg-preview.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
