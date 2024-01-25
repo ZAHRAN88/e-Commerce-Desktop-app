@@ -6,17 +6,17 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.postimg.cc/Y094KRL7/Screenshot-2024-01-25-041235.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/Y094KRL7/Screenshot-2024-01-25-041235.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/ZYV37BvZ/Screenshot-2024-01-25-041253.png" alt="project-screenshot" width="500" height="300/">
+<img src="https://i.postimg.cc/ZYV37BvZ/Screenshot-2024-01-25-041253.png" alt="project-screenshot" width="200" height="100/">
 
-<img src="https://i.postimg.cc/KzQKHwzQ/Screenshot-2024-01-25-041322.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/KzQKHwzQ/Screenshot-2024-01-25-041322.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/zDtbws4G/Screenshot-2024-01-25-041343.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/zDtbws4G/Screenshot-2024-01-25-041343.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/QCyFX7cT/Screenshot-2024-01-25-041403.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/QCyFX7cT/Screenshot-2024-01-25-041403.png" alt="project-screenshot" width="800" height="400/">
 
-<img src="https://i.postimg.cc/Y9tG8Mph/Screenshot-2024-01-25-041422.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://i.postimg.cc/Y9tG8Mph/Screenshot-2024-01-25-041422.png" alt="project-screenshot" width="800" height="400/">
 
 <img src="https://i.postimg.cc/VkbCkKGL/Screenshot-2024-01-25-041513.png" alt="project-screenshot" width="400" height="400/">
 
