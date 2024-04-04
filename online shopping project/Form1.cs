@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,8 +13,10 @@ using System.Windows.Forms;
 namespace online_shopping_project
 {
 
+
     public partial class Login : Form
     {
+        public static string name;
         public int price = 0;
         private void GradientForm_Paint(object sender, PaintEventArgs e)
         {
@@ -142,7 +145,7 @@ namespace online_shopping_project
         private void button1_Click_1(object sender, EventArgs e)
         {
             Home login = new Home();
-            if (username.Text == "admin" && password.Text == "admin")
+            if (username.Text == "Zahran" && password.Text == "admin")
             {
                 this.Hide();
                 login.Show();
@@ -153,6 +156,7 @@ namespace online_shopping_project
 
                 MessageBox.Show("Wrong Username or Password");
             }
+            name= username.Text;
 
         }
 

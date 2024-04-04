@@ -1,0 +1,16 @@
+Order ID: 4b01ed5f-e0ad-4893-a761-68163786ef4b
+Customer Name: Zoha
+Phone Number: 01092088922
+Shipping Address: asdsdasdasdsa
+------------Products-------------
+Grey hoodie                    500 LE.   
+Total Price: 700
+========================================
+Order ID: 20240404225007-0
+Customer Name: Ahmed
+Phone Number: 01189752271
+Shipping Address: Cairo , nageb mahfouz st
+------------Products-------------
+Grey hoodie                    500 LE.   
+Total Price: 700
+========================================

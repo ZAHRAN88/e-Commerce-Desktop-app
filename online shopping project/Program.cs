@@ -37,7 +37,7 @@ namespace online_shopping_project
             //string p = Console.ReadLine();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Products_male());
+            Application.Run(new Login());
            
         }
     }

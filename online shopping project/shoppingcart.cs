@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Security.Cryptography.X509Certificates;
 using System.Windows.Forms;
 
 namespace online_shopping_project
 {
     public partial class shoppingcart : Form
     {
+        public static ListBox products = new ListBox();
         public string promocode = "ZAHRAN";
         public int shipingval = 200;
         public int promodiscount = 300;
-        public double finalprice;
+        public static double finalprice;
         public int originalcost = Program.price;
 
         public double updateprice()
@@ -58,6 +60,7 @@ namespace online_shopping_project
 
         private void button1_Click(object sender, EventArgs e)
         {
+            products = listBoxProducts;
             checkout check = new checkout();
             this.Hide();
             check.Show();
@@ -92,6 +95,8 @@ namespace online_shopping_project
                 Font deleteIconFont = new Font("Segoe UI Emoji", 12); // Change the font size if needed
                 e.Graphics.DrawString("🗑️", deleteIconFont, Brushes.Red, e.Bounds.Right - iconSize, e.Bounds.Top + (e.Bounds.Height - iconSize) / 2);
 
+                // make add function 
+                
                 e.DrawFocusRectangle();
             }
         }

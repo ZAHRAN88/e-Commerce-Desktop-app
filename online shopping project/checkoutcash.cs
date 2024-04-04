@@ -4,7 +4,9 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -92,10 +94,6 @@ namespace online_shopping_project
 
             DialogResult result = MessageBox.Show(errorMessage, caption, buttons, icon);
 
-            if (result == DialogResult.OK)
-            {
-                // Implement any additional logic upon closing the error message box
-            }
         }
         private void button5_Click(object sender, EventArgs e)
         {
@@ -105,6 +103,10 @@ namespace online_shopping_project
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            // make this take only numbers
+                    
+
+
             if (textBox2.Text.Length != 11)
             {
                 MessageBox.Show("Please Enter valid Number");
@@ -113,8 +115,31 @@ namespace online_shopping_project
             else
             {
                 this.Show($"Thanks {textBox3.Text} for visiting us");
+                 int orderCount = 0;
+
+                // Generate a unique ID for the order
+                string orderId = $"{DateTime.Now:yyyyMMddHHmmss}&{orderCount++}";
+
+                using (StreamWriter file = new StreamWriter("orders.txt", true))
+                {
+                    file.WriteLine($"Order ID: {orderId}");
+                    file.WriteLine($"Customer Name: {textBox3.Text}");
+                    file.WriteLine($"Phone Number: {textBox2.Text}");
+                    file.WriteLine($"Shipping Address: {textBox1.Text}");
+                    file.WriteLine("------------Products-------------");
+
+                    // Write order details to the file
+                    foreach (var item in shoppingcart.products.Items)
+                    {
+                        file.WriteLine(item.ToString());
+                    }
+
+                    file.WriteLine($"Total Price: {shoppingcart.finalprice}");
+                    file.WriteLine("========================================");
+                }
                 Application.Exit();
             }
+
         }
     }
 }

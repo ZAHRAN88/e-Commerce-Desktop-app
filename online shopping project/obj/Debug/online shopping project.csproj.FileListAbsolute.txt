@@ -114,3 +114,29 @@ D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping proje
 D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Form1.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Success.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\Simple-Ecommerce-GUI\online shopping project\obj\Debug\online_shopping_project.Form9.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.exe.config
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.exe
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.pdb
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Form1.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.children.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Login.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\WindowsFormsApp3.Kids.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Form9.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Home.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online_shopping_project.Success.resources
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.exe
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.pdb
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.exe.manifest
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.application
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.exe.manifest
+C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.application
