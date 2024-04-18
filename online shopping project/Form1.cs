@@ -9,6 +9,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace online_shopping_project
 {
@@ -24,7 +25,7 @@ namespace online_shopping_project
             DrawGradientBackground(e.Graphics, this.ClientRectangle, Color.FromArgb(5, 162, 252), Color.FromArgb(29, 122, 243));
         }
 
-        private void DrawGradientBackground(Graphics g, Rectangle bounds, Color startColor, Color endColor)
+        private static void DrawGradientBackground(Graphics g, Rectangle bounds, Color startColor, Color endColor)
         {
             // Create a LinearGradientBrush to draw the gradient
             using (LinearGradientBrush brush = new LinearGradientBrush(bounds, startColor, endColor, LinearGradientMode.Horizontal))
@@ -62,6 +63,8 @@ namespace online_shopping_project
             username.MouseClick += remove_placeholder;
             username.MouseLeave += placeholder_back;
             password.MouseClick += removePass_placeholder;
+            label2.MouseHover += text_blue;
+            label2.MouseLeave += text_grey;
             
 
         }
@@ -144,19 +147,55 @@ namespace online_shopping_project
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Home login = new Home();
-            if (username.Text == "Zahran" && password.Text == "admin")
+            AdminPanel admin = new AdminPanel();
+            if (username.Text == "admin" && password.Text == "admin")
             {
                 this.Hide();
-                login.Show();
+                admin.Show();
 
             }
             else
             {
 
-                MessageBox.Show("Wrong Username or Password");
+                
+           
+           
+
+            try
+            {
+                string[] lines = File.ReadAllLines("users.txt");
+
+                // Check each line for username and password match
+                for (int i = 0; i < lines.Length; i += 3) // Increment by 3 to skip over the "-------------------" separator "ChatGpt idea"
+                {
+                    string storedUsername = lines[i].Substring("Username: ".Length).Trim();
+                    string storedPassword = lines[i + 1].Substring("Password: ".Length).Trim();
+
+                    // Check if the entered username and password match the stored ones
+                    if (username.Text == storedUsername && password.Text == storedPassword)
+                    {
+                        // Authentication successful
+                        MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        this.Hide();
+
+                        // Open the admin panel or perform any other action
+                        Home h = new Home();
+                        h.Show();
+
+                        // Store the logged-in username
+                        name = username.Text;
+                        return;
+                    }
+                }
+
+                // If no match found, display error message
+                MessageBox.Show("Wrong Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            name= username.Text;
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while reading user information: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            }
 
         }
 
@@ -172,6 +211,23 @@ namespace online_shopping_project
         {
             Form9 magdy=new Form9();
             magdy.Show();
+        }
+        private void text_blue(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.Blue;
+        }
+      
+        private void text_grey(object sender, EventArgs e)
+        {
+            label2.ForeColor = Color.DarkGray;
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+             SignUp reg = new SignUp();
+            
+           
+            reg.Show();
+            
         }
     }
 }

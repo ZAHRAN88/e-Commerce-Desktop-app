@@ -140,3 +140,31 @@ C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-
 C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\bin\Debug\online shopping project.application
 C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.exe.manifest
 C:\Users\CS\Downloads\Compressed\e-Commerce-Desktop-app-main\e-Commerce-Desktop-app-main\online shopping project\obj\Debug\online shopping project.application
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\bin\Debug\online shopping project.exe.config
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\bin\Debug\online shopping project.exe.manifest
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\bin\Debug\online shopping project.application
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\bin\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\bin\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.csproj.AssemblyReference.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Form1.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.checkout.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.checkoutcash.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.checkoutvisa.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.children.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Login.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\WindowsFormsApp3.Kids.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Form9.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Home.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Products_male.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Properties.Resources.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.shoppingcart.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Success.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.csproj.GenerateResource.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.csproj.CoreCompileInputs.cache
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.exe.manifest
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.application
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.exe
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online shopping project.pdb
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.AdminPanel.resources
+D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.SignUp.resources

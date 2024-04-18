@@ -14,3 +14,24 @@ Shipping Address: Cairo , nageb mahfouz st
 Grey hoodie                    500 LE.   
 Total Price: 700
 ========================================
+Order ID: 20240415020407&0
+Customer Name: Mohamed Zahran
+Phone Number: 01092088922
+Shipping Address: Cairo Qalyub
+------------Products-------------
+Grey hoodie                    500 LE.   
+Black hoodie                   650 LE.   
+Total Price: 1350
+========================================
+Order ID: 20240415025853&1
+Customer Name: Moamen Deep
+Phone Number: 01092088922
+Shipping Address: sreer zahran
+------------Products-------------
+Butterfly Print  Sweatpants	   500 LE.   
+Thermal Lined Sweatshirt	      850 LE.   
+ Pocket Drawstring Thermal Hoodie	 400 LE.   
+Fruit Pom Pom Sweater              800 LE.   
+Polo Hat                       100 LE.   
+Total Price: 2850
+========================================

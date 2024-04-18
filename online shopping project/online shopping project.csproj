@@ -81,6 +81,12 @@
     <Compile Include="Accesories.designer.cs">
       <DependentUpon>Accesories.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPanel.Designer.cs">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="checkout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,12 @@
     </Compile>
     <Compile Include="children.Designer.cs">
       <DependentUpon>children.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -158,6 +170,9 @@
     <EmbeddedResource Include="Accesories.resx">
       <DependentUpon>Accesories.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminPanel.resx">
+      <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="checkout.resx">
       <DependentUpon>checkout.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="children.resx">
       <DependentUpon>children.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

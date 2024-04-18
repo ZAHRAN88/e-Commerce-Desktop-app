@@ -24,6 +24,7 @@ namespace online_shopping_project
             button1.MouseLeave += bforclr;
             Program.RoundControlCorners(pictureBox1, 10);
             Program.RoundControlCorners(panel1, 10);
+
         }
         //gradient background 
         private void GradientPic_Paint(object sender, PaintEventArgs e)
@@ -115,7 +116,7 @@ namespace online_shopping_project
             else
             {
                 this.Show($"Thanks {textBox3.Text} for visiting us");
-                 int orderCount = 0;
+                 int orderCount = 1;
 
                 // Generate a unique ID for the order
                 string orderId = $"{DateTime.Now:yyyyMMddHHmmss}&{orderCount++}";
