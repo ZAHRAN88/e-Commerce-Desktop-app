@@ -15,13 +15,22 @@ namespace online_shopping_project
     public partial class AdminPanel : Form
     {
         DataTable ordersTable= new DataTable();
+       
+
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            string searchTerm = textBox1.Text.ToLower(); 
+            DataView dv = ordersTable.DefaultView;
+            dv.RowFilter = $"[Order ID] LIKE '%{searchTerm}%' OR [Customer Name] LIKE '%{searchTerm}%' OR [Phone Number] LIKE '%{searchTerm}%' OR [Shipping Address] LIKE '%{searchTerm}%' OR [Total Price] LIKE '%{searchTerm}%'";
+            dataGridView1.DataSource = dv.ToTable();
+        }
         public AdminPanel()
         {
            
             InitializeComponent();
             dataGridView1.CellDoubleClick += Order_Details;
             Program.RoundControlCorners(dataGridView1, 10);
-
+            button1.Click += SearchButton_Click;
             this.Paint += GradientForm_Paint;
             DisplayOrdersFromFile("orders.txt");
         }
@@ -113,6 +122,7 @@ namespace online_shopping_project
             ordersTable.Columns.Add("Customer Name");
             ordersTable.Columns.Add("Phone Number");
             ordersTable.Columns.Add("Shipping Address");
+            ordersTable.Columns.Add("Payment Method");
             ordersTable.Columns.Add("Total Price");
 
            
@@ -120,6 +130,7 @@ namespace online_shopping_project
             string customerName = "";
             string phoneNumber = "";
             string shippingAddress = "";
+            string paymentMethod = "";
             decimal totalPrice = 0;
             List<string> products = new List<string>();
 
@@ -132,7 +143,7 @@ namespace online_shopping_project
                     // If not first order, add previous order to the DataTable
                     if (!string.IsNullOrEmpty(orderId))
                     {
-                        ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, totalPrice.ToString("C")); 
+                        ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress,paymentMethod, totalPrice.ToString("C")); 
                         orderProducts.Add(orderId, products); 
                     }
 
@@ -142,6 +153,7 @@ namespace online_shopping_project
                     customerName = "";
                     phoneNumber = "";
                     shippingAddress = "";
+                    paymentMethod = "";
                     totalPrice = 0;
                     products = new List<string>();
                 }
@@ -156,6 +168,10 @@ namespace online_shopping_project
                 else if (line.StartsWith("Shipping Address:"))
                 {
                     shippingAddress = line.Substring("Shipping Address: ".Length).Trim();
+                }
+                else if (line.StartsWith("Payment:"))
+                {
+                    paymentMethod = line.Substring("Payment: ".Length).Trim();
                 }
                 else if (line.StartsWith("Total Price:"))
                 {
@@ -176,7 +192,7 @@ namespace online_shopping_project
             // Add the last order in the file to the DataTable and the dictionary
             if (!string.IsNullOrEmpty(orderId))
             {
-                ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, totalPrice.ToString("C")); // Add last order to DataTable
+                ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, paymentMethod, totalPrice.ToString("C")); // Add last order to DataTable
                 orderProducts.Add(orderId, products); // Add last order products to dictionary
             }
 
@@ -187,11 +203,12 @@ namespace online_shopping_project
         {
 
         }
-
+        
         private void pictureBox5_Click(object sender, EventArgs e)
         {
+            Home home = new Home();
             this.Close();
-            Home  home = new Home();
+          
             home.Show();
         }
 

@@ -127,6 +127,7 @@ namespace online_shopping_project
                     file.WriteLine($"Customer Name: {textBox3.Text}");
                     file.WriteLine($"Phone Number: {textBox2.Text}");
                     file.WriteLine($"Shipping Address: {textBox1.Text}");
+                    file.WriteLine($"Payment: {checkout.paymentMethod}");
                     file.WriteLine("------------Products-------------");
 
                     // Write order details to the file

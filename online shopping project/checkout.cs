@@ -26,7 +26,7 @@ namespace online_shopping_project
                 // Implement any additional logic upon closing the error message box
             }
         }
-        public string paymentMethod;
+        public static string paymentMethod;
         public checkout()
         {
             InitializeComponent();

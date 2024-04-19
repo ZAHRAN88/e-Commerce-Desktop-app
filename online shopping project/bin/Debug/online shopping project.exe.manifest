@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="online shopping project.exe" size="32140240">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="online shopping project.exe" size="32142800">
       <assemblyIdentity name="online shopping project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/5K+ww34RZttJf7PDL7JEA8LgM7NO5xEudzO+6Bzah4=</dsig:DigestValue>
+        <dsig:DigestValue>BiHl+7jToVKfarV+FPA7N3ONTE6L6DOv+OMlMUJzuMY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

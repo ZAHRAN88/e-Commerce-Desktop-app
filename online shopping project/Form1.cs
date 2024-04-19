@@ -178,11 +178,11 @@ namespace online_shopping_project
                         MessageBox.Show("Login successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.Hide();
 
-                        // Open the admin panel or perform any other action
+                       
                         Home h = new Home();
                         h.Show();
 
-                        // Store the logged-in username
+                        
                         name = username.Text;
                         return;
                     }

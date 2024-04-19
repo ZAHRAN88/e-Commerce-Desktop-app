@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,6 +35,7 @@ namespace online_shopping_project
             textBox1.KeyPress += TextBoxNumericOnly_KeyPress;
             textBox3.KeyPress += TextBoxNumericOnly_KeyPress;
             usrN = textBox5.Text;
+           
 
         }
         private void del1(object sender, EventArgs e)
@@ -107,8 +109,8 @@ namespace online_shopping_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thanks For Shopping In Our site");
-            
+          
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -144,7 +146,7 @@ namespace online_shopping_project
 
         private void checkoutvisa_Load(object sender, EventArgs e)
         {
-            textBox6.Text = Program.price.ToString("");
+            textBox6.Text = shoppingcart.finalprice.ToString("");
             Program.RoundControlCorners(button1, 10);
             Program.RoundControlCorners(textBox1, 10);
             Program.RoundControlCorners(textBox2, 10);
@@ -167,6 +169,32 @@ namespace online_shopping_project
                      MessageBox.Show("Please fill out all fields","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
                  }
             else {
+                MessageBox.Show($"Thanks {textBox5.Text} for visiting us");
+
+                int orderCount = 1;
+
+                // Generate a unique ID for the order
+                string orderId = $"{DateTime.Now:yyyyMMddHHmmss}&{orderCount++}";
+
+                using (StreamWriter file = new StreamWriter("orders.txt", true))
+                {
+                    file.WriteLine($"Order ID: {orderId}");
+                    file.WriteLine($"Customer Name: {textBox5.Text}");
+                    file.WriteLine($"Phone Number: {textBox7.Text}");
+                    file.WriteLine($"Shipping Address: {textBox8.Text}");
+                    file.WriteLine($"Payment: {checkout.paymentMethod}");
+                    file.WriteLine("------------Products-------------");
+
+                    // Write order details to the file
+                    foreach (var item in shoppingcart.products.Items)
+                    {
+                        file.WriteLine(item.ToString());
+                    }
+
+                    file.WriteLine($"Total Price: {shoppingcart.finalprice}");
+                    file.WriteLine("========================================");
+                }
+
                 Success S = new Success();
                 this.Hide();
                 S.Show();
