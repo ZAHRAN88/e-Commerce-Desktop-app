@@ -32,6 +32,7 @@ namespace online_shopping_project
             Program.RoundControlCorners(dataGridView1, 10);
             button1.Click += SearchButton_Click;
             this.Paint += GradientForm_Paint;
+            dataGridView1.AllowUserToAddRows = false;
             DisplayOrdersFromFile("orders.txt");
         }
         private void ResizeDataGridView()
@@ -55,7 +56,7 @@ namespace online_shopping_project
             DrawGradientBackground(e.Graphics, this.ClientRectangle, Color.FromArgb(5, 162, 252), Color.FromArgb(29, 122, 243));
             dataGridView1.RowTemplate.Height = 30;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            ResizeDataGridView();
+            
 
 
 
@@ -215,6 +216,17 @@ namespace online_shopping_project
         private void button5_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            SearchButton_Click(sender, e);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

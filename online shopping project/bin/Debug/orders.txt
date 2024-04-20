@@ -7,3 +7,12 @@ Payment: cash
 Barcelet                       50 LE.    
 Total Price: 250
 ========================================
+Order ID: 20240419235428&1
+Customer Name: Magdy Feha
+Phone Number: 01092088922
+Shipping Address: Sreer Elgammal
+Payment: cash
+------------Products-------------
+Butterfly Print  Sweatpants	   500 LE.   
+Total Price: 700
+========================================
