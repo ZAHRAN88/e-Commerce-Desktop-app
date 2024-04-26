@@ -153,7 +153,6 @@ D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping pro
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.children.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Login.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\WindowsFormsApp3.Kids.resources
-D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Form9.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Home.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Products_Female.resources
 D:\New folder 6\Simple-Ecommerce-GUI2\e-Commerce-Desktop-app\online shopping project\obj\Debug\online_shopping_project.Products_male.resources

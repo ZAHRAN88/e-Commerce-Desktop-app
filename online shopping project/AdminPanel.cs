@@ -14,14 +14,16 @@ namespace online_shopping_project
 {
     public partial class AdminPanel : Form
     {
-        DataTable ordersTable= new DataTable();
+        private Dictionary<string, List<string>> orderProducts = new Dictionary<string, List<string>>();
+
+        DataTable ordersTable = new DataTable();
        
 
         private void SearchButton_Click(object sender, EventArgs e)
         {
             string searchTerm = textBox1.Text.ToLower(); 
             DataView dv = ordersTable.DefaultView;
-            dv.RowFilter = $"[Order ID] LIKE '%{searchTerm}%' OR [Customer Name] LIKE '%{searchTerm}%' OR [Phone Number] LIKE '%{searchTerm}%' OR [Shipping Address] LIKE '%{searchTerm}%' OR [Total Price] LIKE '%{searchTerm}%'";
+            dv.RowFilter =$"[Order ID] LIKE '%{searchTerm}%'";
             dataGridView1.DataSource = dv.ToTable();
         }
         public AdminPanel()
@@ -34,6 +36,7 @@ namespace online_shopping_project
             this.Paint += GradientForm_Paint;
             dataGridView1.AllowUserToAddRows = false;
             DisplayOrdersFromFile("orders.txt");
+            
         }
         private void ResizeDataGridView()
         {
@@ -74,6 +77,7 @@ namespace online_shopping_project
 
         private void Order_Details(object sender, DataGridViewCellEventArgs e)
         {
+
             // Retrieve the selected order details from the DataTable
             string orderId = dataGridView1.Rows[e.RowIndex].Cells["Order ID"].Value.ToString();
             string customerName = dataGridView1.Rows[e.RowIndex].Cells["Customer Name"].Value.ToString();
@@ -103,7 +107,6 @@ namespace online_shopping_project
 
         }
 
-        private Dictionary<string, List<string>> orderProducts = new Dictionary<string, List<string>>();
 
         private void DisplayOrdersFromFile(string filePath)
         {
@@ -141,11 +144,11 @@ namespace online_shopping_project
                 // Check if the line contains Order ID information
                 if (line.StartsWith("Order ID:"))
                 {
-                    // If not first order, add previous order to the DataTable
+                  
                     if (!string.IsNullOrEmpty(orderId))
                     {
-                        ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress,paymentMethod, totalPrice.ToString("C")); 
-                        orderProducts.Add(orderId, products); 
+                        ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, paymentMethod, totalPrice.ToString("C"));
+                        orderProducts.Add(orderId, products);
                     }
 
 
@@ -180,7 +183,7 @@ namespace online_shopping_project
                 }
                 else if (line.StartsWith("-"))
                 {
-                    // Skip lines with dashes
+                   
                     continue;
                 }
                 else if (!string.IsNullOrWhiteSpace(line))
@@ -193,8 +196,8 @@ namespace online_shopping_project
             // Add the last order in the file to the DataTable and the dictionary
             if (!string.IsNullOrEmpty(orderId))
             {
-                ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, paymentMethod, totalPrice.ToString("C")); // Add last order to DataTable
-                orderProducts.Add(orderId, products); // Add last order products to dictionary
+                ordersTable.Rows.Add(orderId, customerName, phoneNumber, shippingAddress, paymentMethod, totalPrice.ToString("C")); 
+                orderProducts.Add(orderId, products); 
             }
 
             // Bind the DataTable to the DataGridView
@@ -221,7 +224,8 @@ namespace online_shopping_project
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
-            SearchButton_Click(sender, e);
+           SearchButton_Click(sender, e);
+
         }
 
         private void button1_Click(object sender, EventArgs e)

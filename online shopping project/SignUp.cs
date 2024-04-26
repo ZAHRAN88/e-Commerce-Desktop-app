@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using WindowsFormsApp3;
 
 namespace online_shopping_project
 {
@@ -18,7 +19,7 @@ namespace online_shopping_project
 
     public partial class SignUp : Form
     {
-        private const string PasswordPattern = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\s]).{8,}$";
+        private const string regex = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\w\s]).{8,}$";
 
         public static string name;
         public int price = 0;
@@ -80,7 +81,7 @@ namespace online_shopping_project
 
 
             Program.RoundControlCorners(button1, 7);
-            Program.RoundControlCorners(button5, 8);
+           
             Program.RoundControlCorners(password, 15);
             Program.RoundControlCorners(username, 15);
 
@@ -168,23 +169,23 @@ namespace online_shopping_project
             }
 
             // Validate password using regex
-            if (!Regex.IsMatch(password.Text, PasswordPattern))
+            if (!Regex.IsMatch(password.Text, regex))
             {
-                MessageBox.Show("Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, and one digit.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Password must contain at least 8 characters, including at least one uppercase letter, one lowercase letter, , one digit and a special character", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             // Save user information to a text file
             try
             {
-                using (StreamWriter writer = new StreamWriter("users.txt", true)) // Append to existing file or create new if not exist
+                using (StreamWriter writer = new StreamWriter("users.txt", true)) 
                 {
                     writer.WriteLine("Username: " + username.Text);
                     writer.WriteLine("Password: " + password.Text);
                     writer.WriteLine("-------------------"); // Add an empty line for separation between users
                 }
 
-                MessageBox.Show("User registered and logged in successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("User registered successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Home h =new Home();
                 this.Close();
                 h.Show();
@@ -205,8 +206,8 @@ namespace online_shopping_project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form9 magdy=new Form9();
-            magdy.Show();
+            Kids k=new Kids();
+            k.Show();
         }
 
         private void password_TextChanged_2(object sender, EventArgs e)

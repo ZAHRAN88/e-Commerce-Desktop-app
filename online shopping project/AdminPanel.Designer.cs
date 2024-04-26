@@ -116,6 +116,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(252, 48);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(174, 20);
             this.textBox1.TabIndex = 20;
@@ -124,13 +125,13 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Exo 2", 16.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Exo 2", 14.25F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(260, 13);
+            this.label2.Location = new System.Drawing.Point(261, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 32);
+            this.label2.Size = new System.Drawing.Size(175, 28);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Search Orders";
+            this.label2.Text = "Search Orders (ID)";
             // 
             // button1
             // 

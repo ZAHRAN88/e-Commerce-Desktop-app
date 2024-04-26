@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp3;
+using System.IO;
 
 namespace online_shopping_project
 {
@@ -27,6 +28,33 @@ namespace online_shopping_project
             control.Region = new Region(path);
         }
 
+
+
+        #region WriteOrderToFile
+
+        public static void WriteOrderToFile( string orderId, string customerName, string phoneNumber, string shippingAddress, string paymentMethod)
+        {
+            using (StreamWriter file = new StreamWriter("orders.txt", true))
+            {
+                file.WriteLine($"Order ID: {orderId}");
+                file.WriteLine($"Customer Name: {customerName}");
+                file.WriteLine($"Phone Number: {phoneNumber}");
+                file.WriteLine($"Shipping Address: {shippingAddress}");
+                file.WriteLine($"Payment: {paymentMethod}");
+                file.WriteLine("------------Products-------------");
+
+                // Write order details to the file
+                foreach (var item in shoppingcart.products.Items)
+                {
+                    file.WriteLine(item.ToString());
+                }
+
+                file.WriteLine($"Total Price: {shoppingcart.finalprice}");
+                file.WriteLine("========================================");
+            }
+        }
+        #endregion
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -37,7 +65,7 @@ namespace online_shopping_project
             //string p = Console.ReadLine();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new AdminPanel());
            
         }
     }

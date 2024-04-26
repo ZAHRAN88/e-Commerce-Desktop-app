@@ -105,41 +105,29 @@
     <Compile Include="checkoutvisa.Designer.cs">
       <DependentUpon>checkoutvisa.cs</DependentUpon>
     </Compile>
-    <Compile Include="children.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="children.Designer.cs">
-      <DependentUpon>children.cs</DependentUpon>
-    </Compile>
     <Compile Include="SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Kids.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Kids.designer.cs">
+      <DependentUpon>Kids.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="Categories.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
-    </Compile>
-    <Compile Include="main site.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="main site.Designer.cs">
-      <DependentUpon>main site.cs</DependentUpon>
+    <Compile Include="Categories.Designer.cs">
+      <DependentUpon>Categories.cs</DependentUpon>
     </Compile>
     <Compile Include="Products Female.cs">
       <SubType>Form</SubType>
@@ -182,23 +170,17 @@
     <EmbeddedResource Include="checkoutvisa.resx">
       <DependentUpon>checkoutvisa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="children.resx">
-      <DependentUpon>children.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="Kids.resx">
+      <DependentUpon>Kids.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="main site.resx">
-      <DependentUpon>main site.cs</DependentUpon>
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Products Female.resx">
       <DependentUpon>Products Female.cs</DependentUpon>
@@ -466,6 +448,9 @@
     <None Include="Resources\icons8-necklace-64.png" />
     <None Include="Resources\icons8-sunglasses-64.png" />
     <None Include="Resources\efda0d741fd73fb31c2870269ada7c8d_removebg_preview1.jpg" />
+    <None Include="Resources\chair-avlbl.png" />
+    <None Include="Resources\chair-booked.png" />
+    <None Include="Resources\chair_selected.png" />
     <Content Include="Resources\M1-removebg-preview.png" />
     <None Include="Resources\m2-black.png" />
     <Content Include="Resources\M2-removebg-preview.png" />

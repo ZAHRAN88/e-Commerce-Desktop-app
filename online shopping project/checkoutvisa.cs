@@ -176,24 +176,11 @@ namespace online_shopping_project
                 // Generate a unique ID for the order
                 string orderId = $"{DateTime.Now:yyyyMMddHHmmss}&{orderCount++}";
 
-                using (StreamWriter file = new StreamWriter("orders.txt", true))
-                {
-                    file.WriteLine($"Order ID: {orderId}");
-                    file.WriteLine($"Customer Name: {textBox5.Text}");
-                    file.WriteLine($"Phone Number: {textBox7.Text}");
-                    file.WriteLine($"Shipping Address: {textBox8.Text}");
-                    file.WriteLine($"Payment: {checkout.paymentMethod}");
-                    file.WriteLine("------------Products-------------");
 
-                    // Write order details to the file
-                    foreach (var item in shoppingcart.products.Items)
-                    {
-                        file.WriteLine(item.ToString());
-                    }
+                // Write the order details to a file
+                Program.WriteOrderToFile(orderId, textBox5.Text, textBox7.Text, textBox8.Text, "Card");
 
-                    file.WriteLine($"Total Price: {shoppingcart.finalprice}");
-                    file.WriteLine("========================================");
-                }
+               
 
                 Success S = new Success();
                 this.Hide();

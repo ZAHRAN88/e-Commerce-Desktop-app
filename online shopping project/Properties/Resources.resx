@@ -355,6 +355,9 @@
   <data name="red_hat-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\red_hat-removebg-preview1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="chair-avlbl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chair-avlbl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="k3beige" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\k3beige.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -471,6 +474,9 @@
   </data>
   <data name="B3_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\B3_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wblue11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wblue11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="wblue2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wblue2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -619,8 +625,8 @@
   <data name="image-removebg-preview (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image-removebg-preview (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="wblue11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wblue11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="efda0d741fd73fb31c2870269ada7c8d_removebg_preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\efda0d741fd73fb31c2870269ada7c8d_removebg_preview1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="homebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\homebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -646,7 +652,10 @@
   <data name="pink21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pink21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="efda0d741fd73fb31c2870269ada7c8d_removebg_preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\efda0d741fd73fb31c2870269ada7c8d_removebg_preview1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chair-booked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chair-booked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chair_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chair_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
