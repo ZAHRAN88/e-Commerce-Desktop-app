@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://socialify.git.ci/ZAHRAN88/e-Commerce-Desktop-app/image?language=1&amp;name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
 
-<p id="description">Originals store is a GUI Desktop application for shopping clothes of categories (Men Women Kids accessories) with flexible UI design and functionalities scan the QR below for better experience ...</p>
+<p id="description">Originals  store is a GUI Desktop application for shopping clothes of categories (Men Women Kids accessories) with flexible UI design and functionalities scan the QR below for better experience ...</p>
 
 <h2>Project Screenshots:</h2>
 
